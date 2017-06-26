@@ -1,0 +1,52 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #96072a;
+    color: #fcfcfc;
+    font-size: 100%;
+    user-select: none;
+}
+
+h1, h2, h3 {
+    font-family: 'Milonga', cursive;
+}
+
+.header {
+    padding-top: 1rem;
+}
+
+.logo {
+    font-family: 'Milonga', cursive;
+    font-size: 2rem;
+    color: gold;
+    width: 100%;
+    text-align: center;
+}
+
+.cookie-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cookie {
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 12.5rem;
+    transition: 1s all;
+    cursor: pointer;
+    background: url('../img/fortune-cookie-575751_640.png') no-repeat;
+    background-size: contain;
+}
+
+.cookie:active {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 25rem;
+}
+
+.fortune {
+    font-family: 'Milonga', cursive;
+    font-size: 1.6rem;
+    color: gold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
