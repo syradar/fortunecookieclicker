@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Fortune Cookie Clicker</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/fcc.css">
-    <link href="https://fonts.googleapis.com/css?family=Milonga|Ubuntu" rel="stylesheet">
-</head>
-<body>
-<div class="container">
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Milonga|Ubuntu"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header">
-        <h1 class="logo">Fortune Cookie Clicker</h1>
+      <h1 class="logo">Fortune Cookie Clicker</h1>
     </header>
+
     <div class="cookie-container">
-        <div class="cookie" id="fortune-cookie"></div>
+      <button
+        type="button"
+        class="cookie"
+        id="fortune-cookie"
+        aria-label="Click to receive your fortune"
+      ></button>
     </div>
+
     <div class="fortune" id="fortune"></div>
+
     <div class="counter-countainer">
-        <div><strong>Times clicked</strong>: <span id="click-counter">0</span></div>
+      <strong>Times clicked</strong>: <span id="click-counter">0</span>
     </div>
+
     <footer>
-        <div>Made with love by <a href="https://www.facebook.com/syradar">@syradar</a> using Bootstrap and Vanilla JS for <a
-                href="https://sverigesradio.se/sida/default.aspx?programid=4090">P3 Spel</a>.</div>
-        <div>Version 0.1 Alpha,
-            soon on Steam Early Access!</div>
+      <div>
+        Made with love by
+        <a href="https://github.com/syradar">@syradar</a> for
+        <a href="https://sverigesradio.se/sida/default.aspx?programid=4090"
+          >P3 Spel</a
+        >.
+      </div>
+      <div>Version 0.2 Beta, soon on Steam Early Access!</div>
     </footer>
-</div>
-<!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script src="js/syradar.js"></script>
-<script src="js/fcc.js"></script>
-</body>
+
+    <script src="main.js"></script>
+  </body>
 </html>
